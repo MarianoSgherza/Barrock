@@ -5,10 +5,11 @@
     <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset("css/style.css")}}">
+    <link rel="stylesheet" href="{{asset("css/styletablet.css")}}">
     <link rel="stylesheet" href="{{asset("css/styledesktop.css")}}">
     <title>Barrock Brewery</title>
-    <style>
-      @media (min-width: 900px) {
+    <!--style>
+      media (min-width: 900px) {
 
 
       body {
@@ -59,6 +60,7 @@
       .contenedor {
         width: 90%;
         margin: 10px auto;
+        /*position: absolute;*/
       }
 
       .contenedorcontacto {
@@ -103,17 +105,20 @@
 
 
       div .videoFondo {
-        position: static;
+        /*position: static;*/
+        
         display: block;
-        height: 540px;
+        height: 640px;
 
       }
 
       .video {
-        position: relative;
+        position:relative;
+        /*width: 100%;*/
       }
 
       .textovideo {
+      
         position: relative;
         bottom: 350px;
         margin: 0px auto;
@@ -231,31 +236,31 @@
       .ipa{
         width: 300px;
         height: 353px;
-        background-image: url("{{asset("../images/barrockventa1.PNG")}}");
+        background-image: url("asset('../images/barrockventa1.PNG')}}");
         overflow: hidden;
       }
       .porter{
         width: 300px;
         height: 353px;
-        background-image: url("{{asset("../images/barrockventa2.png")}}");
+        background-image: url("asset("../images/barrockventa2.png")}}");
         overflow: hidden;
       }
       .stout{
         width: 300px;
         height: 353px;
-        background-image: url("{{asset("../images/barrockventa3.png")}}");
+        background-image: url("asset("../images/barrockventa3.png")}}");
         overflow: hidden;
       }
       .pilsener{
         width: 300px;
         height: 353px;
-        background-image: url("{{asset("../images/barrockventa4.png")}}");
+        background-image: url("asset("../images/barrockventa4.png")}}");
         overflow: hidden;
       }
       .amber{
         width: 300px;
         height: 353px;
-        background-image: url("{{asset("../images/barrockventa5.png")}}");
+        background-image: url("asset("../images/barrockventa5.png")}}");
         overflow: hidden;
       }
 
@@ -387,7 +392,7 @@
       }
 
       }
-    </style>
+    </style-->
 
     <link rel="shortcut icon" href="{{asset("images/barrockfavicon.png")}}">
 

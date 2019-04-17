@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 
   .chequea {
     display: inline-block;
@@ -118,7 +118,7 @@
   div .videoFondo {
     position: static;
     display: block;
-    height: 540px;
+    height: 840px;
 
   }
 
@@ -241,22 +241,22 @@
     display: none;
   }
 
-  .ipa{
+  /*.ipa{
     width: 300px;
     height: 353px;
-    background-image: url("{{asset("../images/barrockventa1.PNG")}}");
+    background-image: url("{{asset('../images/barrockventa1.png')}}");
     overflow: hidden;
   }
   .porter{
     width: 300px;
     height: 353px;
-    background-image: url("{{asset("../images/barrockventa2.png")}}");
+    background-image: url("{{asset('../images/barrockventa2.png')}}");
     overflow: hidden;
   }
   .stout{
     width: 300px;
     height: 353px;
-    background-image: url("{{asset("../images/barrockventa3.png")}}");
+    background-image: url("{{asset('../images/barrockventa3.png')}}");
     overflow: hidden;
   }
   .pilsener{
@@ -277,7 +277,7 @@
     height: 353px;
     background-image: url("../imagenes/barrockventa6.png");
     overflow: hidden;
-  }
+  }*/
 
   .textoBirra{
     padding: 20px 20px;
@@ -344,7 +344,7 @@
   }
 
   .imagenregistro {
-    display: inline-block;
+    display: block;
     width: 60%;
     float: right;
     margin-bottom: -3px;
